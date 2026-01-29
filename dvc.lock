@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  print_data:
+    cmd: python hello.py
+    deps:
+    - path: data/data.txt
+      hash: md5
+      md5: 201fbc1550518f5293db6c71d5d0c290
+      size: 25
+    outs:
+    - path: output.txt
+      hash: md5
+      md5: b1abe4da049baccb7f898acf2b66ad8b
+      size: 114
