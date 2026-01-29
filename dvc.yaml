@@ -1,0 +1,7 @@
+stages:
+  print_data:
+    cmd: python hello.py
+    deps:
+    - data/data.txt
+    outs:
+    - output.txt
